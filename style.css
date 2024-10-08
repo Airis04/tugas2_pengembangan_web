@@ -1,196 +1,218 @@
-/* Mengatur tampilan form login */
+
 .login-form {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #0096FF; /* Warna background form */
+    background-color: #0096FF; 
     padding: 20px;
     border-radius: 10px;
-    width: 300px; /* Lebar form */
-    margin: 50px auto; /* Centering form secara vertikal dan horizontal */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Efek bayangan pada form */
+    width: 300px; 
+    margin: 50px auto; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
 }
 
-/* Mengatur label dan input agar sejajar horizontal */
+
 .input {
     display: flex;
-    justify-content: space-between; /* Jarak antara label dan input */
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 15px;
-    width: 100%; /* Lebar input agar menyesuaikan dengan form */
+    width: 100%; 
 }
 
-/* Styling untuk label */
+
 label {
-    width: 30%; /* Lebar label agar seimbang */
+    width: 30%; 
     font-size: 16px;
-    color: #333; /* Warna teks label */
+    color: #333; 
     text-align: left;
 }
 
-/* Styling untuk input email dan password */
+
 input[type="email"], input[type="password"] {
     padding: 10px;
-    width: 65%; /* Lebar input agar sejajar dengan label */
-    border: 2px solid #ccc; /* Border input */
+    width: 65%; 
+    border: 2px solid #ccc; 
     border-radius: 5px;
-    box-sizing: border-box; /* Menghindari input overflow */
+    box-sizing: border-box; 
     font-size: 14px;
 }
 
-/* Styling untuk tombol submit */
+
 .button-login {
-    background-color: #00BFFF; /* Warna background tombol */
+    background-color: #00BFFF; 
     color: white;
     padding: 10px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    width: 100%; /* Tombol memenuhi lebar form */
+    width: 100%; 
     text-align: center;
     font-size: 16px;
 }
 
-/* Hover effect pada tombol submit */
+
 .button-login:hover {
-    background-color: #007ACC; /* Warna saat tombol di-hover */
+    background-color: #007ACC; 
 }
 
-/* Styling untuk notifikasi kesalahan login */
+
 .notifikasi {
-    background-color: #ff4c4c; /* Warna latar belakang kesalahan */
+    background-color: #ff4c4c; 
     color: white;
     padding: 10px;
     margin-bottom: 15px;
     text-align: center;
     border-radius: 5px;
-    width: 300px; /* Lebar sama seperti form */
-    margin: 0 auto; /* Centering notifikasi */
+    width: 300px; 
+    margin: 0 auto; 
 }
 
-/* Mengatur body agar form berada di tengah halaman */
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    background: linear-gradient(to bottom, #6a11cb, #2575fc); /* Gradien warna untuk background */
+    background: linear-gradient(to bottom, #6a11cb, #2575fc); 
     font-family: Arial, sans-serif;
 }
 
-/* Mengatur form Buku Tamu */
+
 .bukutamu-form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #f0f8ff; /* Warna background form */
+    background-color: #f0f8ff; 
     padding: 20px;
     border-radius: 10px;
-    width: 400px; /* Lebar form */
-    margin: 50px auto; /* Centering form */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Efek bayangan pada form */
+    width: 400px; 
+    margin: 50px auto; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
 }
 
-/* Mengatur heading H2 */
+
 .bukutamu-form h2 {
     font-size: 24px;
-    color: #333; /* Warna teks */
+    color: #333; 
     margin-bottom: 20px;
 }
 
-/* Mengatur inputan komentar */
+
 .input-field {
     display: flex;
     flex-direction: column;
-    width: 100%; /* Lebar full */
+    width: 100%; 
     margin-bottom: 15px;
 }
 
-/* Label untuk komentar */
+
 label {
     font-size: 16px;
     margin-bottom: 5px;
-    color: #333; /* Warna teks label */
+    color: #333; 
 }
 
-/* Styling untuk textarea */
+
 textarea {
     padding: 10px;
     font-size: 14px;
     border: 2px solid #ccc;
     border-radius: 5px;
     width: 100%;
-    box-sizing: border-box; /* Memastikan tidak ada overflow */
-    resize: vertical; /* Membatasi ukuran vertikal saja */
+    box-sizing: border-box; 
+    resize: vertical; 
 }
 
-/* Styling tombol kirim */
+
 .submit-button {
-    background-color: #00BFFF; /* Warna background tombol */
+    background-color: #00BFFF; 
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    width: 100%; /* Tombol memenuhi lebar form */
+    width: 100%; 
     text-align: center;
 }
 
-/* Hover effect pada tombol kirim */
+
 .submit-button:hover {
-    background-color: #007ACC; /* Warna saat di-hover */
+    background-color: #007ACC;
 }
 
-/* Styling untuk pesan kesalahan */
+
 .error {
     color: #ff4c4c;
     font-size: 14px;
     margin-top: 5px;
 }
 
-/* Mengatur tampilan body agar form di tengah */
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    background: linear-gradient(to bottom, #6a11cb, #2575fc); /* Background gradien */
+    background: linear-gradient(to bottom, #6a11cb, #2575fc); 
     font-family: Arial, sans-serif;
 }
 
-/* Styling untuk teks hasil input setelah submit */
+
 .bukutamu-form p {
     margin: 5px 0;
     font-size: 16px;
-    color: #333; /* Warna teks hasil input */
+    color: #333; 
 }
 
-/* style.css */
 
-/* Tombol logout */
 .button-logout {
-    background-color: #ff4c4c; /* Warna background merah */
-    color: white; /* Warna teks putih */
-    border: none; /* Menghapus border */
-    padding: 10px 20px; /* Padding untuk ukuran tombol */
-    text-align: center; /* Penyesuaian teks agar berada di tengah */
-    text-decoration: none; /* Menghapus garis bawah teks */
-    display: inline-block; /* Membuat tombol mengikuti konten */
-    font-size: 16px; /* Ukuran font */
-    border-radius: 5px; /* Membuat sudut tombol melengkung */
-    cursor: pointer; /* Mengubah kursor menjadi pointer saat hover */
-    transition: background-color 0.3s ease; /* Animasi transisi */
+    background-color: #ff0000; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    width: 100%; 
+    transition: background-color 0.3s ease; 
 }
 
 .button-logout:hover {
-    background-color: #d43c3c; /* Warna tombol saat hover */
+    background-color: #cc0000; 
 }
 
 .button-logout:active {
-    background-color: #c32d2d; /* Warna tombol saat ditekan */
+    background-color: #0056b3; 
 }
+
+
+.submit-button {
+    background-color: #00BFFF; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%; 
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #007ACC; 
+}
+
+.submit-button:active {
+    background-color: #0056b3; 
+}
+

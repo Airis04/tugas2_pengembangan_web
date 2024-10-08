@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-// Pastikan variabel $commentError dan $isFormValid dideklarasikan
+
 $commentError = '';
 $isFormValid = true;
 
