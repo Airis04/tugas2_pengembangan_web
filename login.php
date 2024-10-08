@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,7 +17,7 @@
 }
 ?>  
     <div class="login-form">
-    <form method= "post" action="loginsukses.php">
+    <form method= "post" action="validasi.php">
         <div class="input">
                 <label for="email" class="tag-email"><b>email</b></label>
                 <input type="email" class="element-input" name="email" placeholder="email" required>
